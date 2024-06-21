@@ -1,5 +1,4 @@
-package com.example.vitbatch.kotlinexs
-
+package com.example.vitbatch
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
