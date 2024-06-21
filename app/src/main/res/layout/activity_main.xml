@@ -31,27 +31,40 @@
         android:inputType="numberPassword"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextText" />
+    <!--dp=density independent pixel-->
 
     <Button
         android:id="@+id/button"
-        android:textColor="@color/black"
-        android:layout_width="wrap_content"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="55dp"
-        android:layout_marginTop="58dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="76dp"
         android:text="login"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
 
     <Button
         android:id="@+id/button2"
-        android:textColor="@color/mycolor"
-        android:layout_width="wrap_content"
+        android:layout_width="@dimen/my_btn_width"
         android:layout_height="wrap_content"
         android:layout_marginStart="132dp"
         android:layout_marginEnd="133dp"
         android:text="okk"
+        android:textColor="@color/mycolor"
         app:layout_constraintBaseline_toBaselineOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/button" />
+<!--sp=scale independent pixels-->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="8dp"
+        android:text="TextView"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
 </androidx.constraintlayout.widget.ConstraintLayout>
